@@ -212,18 +212,14 @@ F 3 "" H 6040 6080 50  0001 C CNN
 	1    6040 6080
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3220 2970 2    50   Input ~ 0
+Text GLabel 3220 4470 2    50   Input ~ 0
 STRIP_1
-Text GLabel 3220 3870 2    50   Input ~ 0
+Text GLabel 3220 3770 2    50   Input ~ 0
 STRIP_2
 Text GLabel 3220 3970 2    50   Input ~ 0
 STRIP_3
-Text GLabel 3220 3770 2    50   Input ~ 0
+Text GLabel 3220 3870 2    50   Input ~ 0
 STRIP_4
-Text GLabel 3220 4570 2    50   Input ~ 0
-STRIP_5
-Text GLabel 3220 4470 2    50   Input ~ 0
-STRIP_6
 $Comp
 L esp32-pico:ESP32-PICO-KIT J1
 U 1 1 60480180
@@ -344,10 +340,6 @@ NoConn ~ 5350 1460
 NoConn ~ 5350 1560
 NoConn ~ 6350 1560
 NoConn ~ 6350 1460
-Text GLabel 1620 4870 0    50   Input ~ 0
-3v3
-Text GLabel 1620 4970 0    50   Input ~ 0
-3v3
 Text GLabel 6350 1360 2    50   Input ~ 0
 3v3
 Text GLabel 5685 2700 1    50   Input ~ 0
@@ -523,4 +515,14 @@ F 3 "~" H 6335 4450 50  0001 C CNN
 	1    6335 4450
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 6185 4750
+NoConn ~ 6185 3250
+Text GLabel 3220 2970 2    50   Input ~ 0
+STRIP_5
+Text GLabel 3220 2770 2    50   Input ~ 0
+STRIP_6
+Text GLabel 1620 4870 0    50   Input ~ 0
+3v3
+Text GLabel 1620 4970 0    50   Input ~ 0
+3v3
 $EndSCHEMATC
