@@ -514,4 +514,28 @@ F 3 "" H 1695 5015 50  0001 C CNN
 $EndComp
 Text GLabel 1695 5515 0    50   Input ~ 0
 5V
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 605E2C73
+P 3470 2175
+F 0 "J1" H 3527 2500 50  0000 C CNN
+F 1 "Barrel_Jack" H 3527 2409 50  0000 C CNN
+F 2 "" H 3520 2135 50  0001 C CNN
+F 3 "~" H 3520 2135 50  0001 C CNN
+	1    3470 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 605E46B6
+P 3770 2275
+F 0 "#PWR0108" H 3770 2025 50  0001 C CNN
+F 1 "GND" V 3775 2147 50  0000 R CNN
+F 2 "" H 3770 2275 50  0001 C CNN
+F 3 "" H 3770 2275 50  0001 C CNN
+	1    3770 2275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3770 2075 2    50   Input ~ 0
+5V
 $EndSCHEMATC
