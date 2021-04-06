@@ -1,0 +1,6 @@
+[submodule "inmp441"]
+	path = inmp441
+	url = git@github.com:barafael/inmp441-breakout-kicad.git
+[submodule "kwmobile_sdcard_module"]
+	path = kwmobile_sdcard_module
+	url = git@github.com:barafael/kwmobile-sdcard-module-kicad.git

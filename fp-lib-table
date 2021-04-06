@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name inmp441)(type KiCad)(uri ${KIPRJMOD}/inmp441/inmp441.pretty)(options "")(descr ""))
+  (lib (name kwmobile_sdcard_module)(type KiCad)(uri ${KIPRJMOD}/kwmobile_sdcard_module/kwmobile_sdcard_module.pretty)(options "")(descr ""))
+)
