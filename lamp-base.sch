@@ -457,86 +457,62 @@ NoConn ~ 8160 3380
 $Comp
 L esp32-devkitC:ESP32-DEVKITC-32D U3
 U 1 1 6056A46C
-P 2495 4615
-F 0 "U3" H 2495 5782 50  0000 C CNN
-F 1 "ESP32-DEVKITC-32D" H 2495 5691 50  0000 C CNN
-F 2 "esp32-devkitC-footprint:MODULE_ESP32-DEVKITC-32D" H 2495 4615 50  0001 L BNN
-F 3 "" H 2495 4615 50  0001 L BNN
-F 4 "Espressif Systems" H 2495 4615 50  0001 L BNN "MANUFACTURER"
-F 5 "4" H 2495 4615 50  0001 L BNN "PARTREV"
-	1    2495 4615
+P 2495 4315
+F 0 "U3" H 2495 5482 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 2495 5391 50  0000 C CNN
+F 2 "esp32-devkitC-footprint:MODULE_ESP32-DEVKITC-32D" H 2495 4315 50  0001 L BNN
+F 3 "" H 2495 4315 50  0001 L BNN
+F 4 "Espressif Systems" H 2495 4315 50  0001 L BNN "MANUFACTURER"
+F 5 "4" H 2495 4315 50  0001 L BNN "PARTREV"
+	1    2495 4315
 	1    0    0    -1  
 $EndComp
-Text GLabel 1695 4415 0    50   Input ~ 0
+Text GLabel 1695 4115 0    50   Input ~ 0
 STRIP_6
-Text GLabel 1695 4515 0    50   Input ~ 0
+Text GLabel 1695 4215 0    50   Input ~ 0
 STRIP_5
-Text GLabel 1695 4915 0    50   Input ~ 0
-STRIP_2
 Text GLabel 1695 4615 0    50   Input ~ 0
+STRIP_2
+Text GLabel 1695 4315 0    50   Input ~ 0
 STRIP_4
-Text GLabel 1695 4715 0    50   Input ~ 0
+Text GLabel 1695 4415 0    50   Input ~ 0
 STRIP_3
-Text GLabel 1695 5115 0    50   Input ~ 0
+Text GLabel 1695 4815 0    50   Input ~ 0
 STRIP_1
 $Comp
 L power:GND #PWR0110
 U 1 1 605858C1
-P 3295 4315
-F 0 "#PWR0110" H 3295 4065 50  0001 C CNN
-F 1 "GND" V 3300 4187 50  0000 R CNN
-F 2 "" H 3295 4315 50  0001 C CNN
-F 3 "" H 3295 4315 50  0001 C CNN
-	1    3295 4315
+P 3295 4015
+F 0 "#PWR0110" H 3295 3765 50  0001 C CNN
+F 1 "GND" V 3300 3887 50  0000 R CNN
+F 2 "" H 3295 4015 50  0001 C CNN
+F 3 "" H 3295 4015 50  0001 C CNN
+	1    3295 4015
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 60585A2B
-P 3295 3715
-F 0 "#PWR0123" H 3295 3465 50  0001 C CNN
-F 1 "GND" V 3300 3587 50  0000 R CNN
-F 2 "" H 3295 3715 50  0001 C CNN
-F 3 "" H 3295 3715 50  0001 C CNN
-	1    3295 3715
+P 3295 3415
+F 0 "#PWR0123" H 3295 3165 50  0001 C CNN
+F 1 "GND" V 3300 3287 50  0000 R CNN
+F 2 "" H 3295 3415 50  0001 C CNN
+F 3 "" H 3295 3415 50  0001 C CNN
+	1    3295 3415
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 6058B543
-P 1695 5015
-F 0 "#PWR0124" H 1695 4765 50  0001 C CNN
-F 1 "GND" V 1700 4887 50  0000 R CNN
-F 2 "" H 1695 5015 50  0001 C CNN
-F 3 "" H 1695 5015 50  0001 C CNN
-	1    1695 5015
+P 1695 4715
+F 0 "#PWR0124" H 1695 4465 50  0001 C CNN
+F 1 "GND" V 1700 4587 50  0000 R CNN
+F 2 "" H 1695 4715 50  0001 C CNN
+F 3 "" H 1695 4715 50  0001 C CNN
+	1    1695 4715
 	0    1    1    0   
 $EndComp
-Text GLabel 1695 5515 0    50   Input ~ 0
-5V
-$Comp
-L Connector:Barrel_Jack J1
-U 1 1 605E2C73
-P 3470 2175
-F 0 "J1" H 3527 2500 50  0000 C CNN
-F 1 "Barrel_Jack" H 3527 2409 50  0000 C CNN
-F 2 "" H 3520 2135 50  0001 C CNN
-F 3 "~" H 3520 2135 50  0001 C CNN
-	1    3470 2175
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 605E46B6
-P 3770 2275
-F 0 "#PWR0108" H 3770 2025 50  0001 C CNN
-F 1 "GND" V 3775 2147 50  0000 R CNN
-F 2 "" H 3770 2275 50  0001 C CNN
-F 3 "" H 3770 2275 50  0001 C CNN
-	1    3770 2275
-	0    -1   -1   0   
-$EndComp
-Text GLabel 3770 2075 2    50   Input ~ 0
+Text GLabel 1695 5215 0    50   Input ~ 0
 5V
 $Comp
 L inmp441:INMP441 U4
@@ -560,7 +536,7 @@ F 3 "" H 8545 1465 50  0001 C CNN
 	1    8545 1465
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1695 3715 0    50   Input ~ 0
+Text GLabel 1695 3415 0    50   Input ~ 0
 3v3
 Text GLabel 8545 1590 2    50   Input ~ 0
 3v3
@@ -581,11 +557,11 @@ F 3 "" H 7645 1465 50  0001 C CNN
 	1    7645 1465
 	0    1    1    0   
 $EndComp
-Text GLabel 1695 4815 0    50   Input ~ 0
+Text GLabel 1695 4515 0    50   Input ~ 0
 MIC_SCK
-Text GLabel 1695 4315 0    50   Input ~ 0
+Text GLabel 1695 4015 0    50   Input ~ 0
 SD
-Text GLabel 3295 5215 2    50   Input ~ 0
+Text GLabel 3295 4915 2    50   Input ~ 0
 WS
 $Comp
 L power:GND #PWR0126
@@ -608,13 +584,13 @@ Text GLabel 9790 5065 0    50   Input ~ 0
 CS
 Text GLabel 9790 5465 0    50   Input ~ 0
 5V
-Text GLabel 3295 4415 2    50   Input ~ 0
+Text GLabel 3295 4115 2    50   Input ~ 0
 MISO
-Text GLabel 3295 4515 2    50   Input ~ 0
+Text GLabel 3295 4215 2    50   Input ~ 0
 CLK
-Text GLabel 3295 3815 2    50   Input ~ 0
+Text GLabel 3295 3515 2    50   Input ~ 0
 MOSI
-Text GLabel 3295 4615 2    50   Input ~ 0
+Text GLabel 3295 4315 2    50   Input ~ 0
 CS
 $Comp
 L kwmobile_sdcard_module:sdcard_module U5
@@ -671,4 +647,60 @@ F 3 "~" H 4900 3300 50  0001 C CNN
 	1    4900 3300
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1695 3915
+NoConn ~ 1695 3815
+NoConn ~ 1695 3615
+NoConn ~ 1695 3715
+NoConn ~ 3295 4715
+NoConn ~ 3295 4815
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J1
+U 1 1 6073091C
+P 9700 3600
+F 0 "J1" V 9796 3412 50  0000 R CNN
+F 1 "Conn_02x03_Counter_Clockwise" V 9705 3412 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9700 3600 50  0001 C CNN
+F 3 "~" H 9700 3600 50  0001 C CNN
+	1    9700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 607321BF
+P 9600 3400
+F 0 "#PWR0108" H 9600 3150 50  0001 C CNN
+F 1 "GND" V 9605 3272 50  0000 R CNN
+F 2 "" H 9600 3400 50  0001 C CNN
+F 3 "" H 9600 3400 50  0001 C CNN
+	1    9600 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 60732C4F
+P 9700 3900
+F 0 "#PWR0127" H 9700 3650 50  0001 C CNN
+F 1 "GND" V 9705 3772 50  0000 R CNN
+F 2 "" H 9700 3900 50  0001 C CNN
+F 3 "" H 9700 3900 50  0001 C CNN
+	1    9700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 60732F57
+P 9800 3400
+F 0 "#PWR0128" H 9800 3150 50  0001 C CNN
+F 1 "GND" V 9805 3272 50  0000 R CNN
+F 2 "" H 9800 3400 50  0001 C CNN
+F 3 "" H 9800 3400 50  0001 C CNN
+	1    9800 3400
+	-1   0    0    1   
+$EndComp
+Text GLabel 9600 3900 3    50   Input ~ 0
+5V
+Text GLabel 9700 3400 1    50   Input ~ 0
+5V
+Text GLabel 9800 3900 3    50   Input ~ 0
+5V
 $EndSCHEMATC
