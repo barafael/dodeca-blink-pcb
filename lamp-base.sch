@@ -282,7 +282,7 @@ $EndComp
 Text GLabel 7660 2830 1    50   Input ~ 0
 5V
 $Comp
-L t125:74HCT125 U1
+L lamp-base-rescue:74HCT125-t125 U1
 U 1 1 604DB4A3
 P 7660 3530
 F 0 "U1" H 7660 4501 50  0000 C CNN
@@ -293,7 +293,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hct125.pdf" H 7660 4319 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L t125:74HCT125 U2
+L lamp-base-rescue:74HCT125-t125 U2
 U 1 1 604DFC35
 P 7685 5585
 F 0 "U2" H 7685 6556 50  0000 C CNN
@@ -455,7 +455,7 @@ $EndComp
 NoConn ~ 8185 5435
 NoConn ~ 8160 3380
 $Comp
-L esp32-devkitC:ESP32-DEVKITC-32D U3
+L lamp-base-rescue:ESP32-DEVKITC-32D-esp32-devkitC U3
 U 1 1 6056A46C
 P 2495 4315
 F 0 "U3" H 2495 5482 50  0000 C CNN
