@@ -133,11 +133,11 @@ X GND 6 -600 300 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lamp-base-rescue_74HCT125-t125
+# lamp-base-rescue_74HCT125-t125-lamp-base-rescue
 #
-DEF lamp-base-rescue_74HCT125-t125 U 0 10 Y Y 1 F N
+DEF lamp-base-rescue_74HCT125-t125-lamp-base-rescue U 0 10 Y Y 1 F N
 F0 "U" 100 600 50 H V L CNN
-F1 "lamp-base-rescue_74HCT125-t125" -200 100 50 H V L CNN
+F1 "lamp-base-rescue_74HCT125-t125-lamp-base-rescue" -200 100 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -162,11 +162,11 @@ X 3A 9 -500 50 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lamp-base-rescue_ESP32-DEVKITC-32D-esp32-devkitC
+# lamp-base-rescue_ESP32-DEVKITC-32D-esp32-devkitC-lamp-base-rescue
 #
-DEF lamp-base-rescue_ESP32-DEVKITC-32D-esp32-devkitC U 0 40 Y Y 1 L N
+DEF lamp-base-rescue_ESP32-DEVKITC-32D-esp32-devkitC-lamp-base-rescue U 0 40 Y Y 1 L N
 F0 "U" -601 1026 50 H V L BNN
-F1 "lamp-base-rescue_ESP32-DEVKITC-32D-esp32-devkitC" -601 -1101 50 H V L BNN
+F1 "lamp-base-rescue_ESP32-DEVKITC-32D-esp32-devkitC-lamp-base-rescue" -601 -1101 50 H V L BNN
 F2 "MODULE_ESP32-DEVKITC-32D" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Espressif Systems" 0 0 50 H I L BNN "MANUFACTURER"
