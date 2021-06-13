@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name t125)(type Legacy)(uri /home/ra/lamp-base/74hct125.lib)(options "")(descr ""))
+  (lib (name t125)(type Legacy)(uri ${KIPRJMOD}/74hct125.lib)(options "")(descr ""))
   (lib (name inmp441)(type Legacy)(uri ${KIPRJMOD}/inmp441/inmp441.lib)(options "")(descr ""))
   (lib (name kwmobile_sdcard_module)(type Legacy)(uri ${KIPRJMOD}/kwmobile_sdcard_module/kwmobile_sdcard_module.lib)(options "")(descr ""))
   (lib (name lamp-base-rescue)(type Legacy)(uri ${KIPRJMOD}/lamp-base-rescue.lib)(options "")(descr ""))
