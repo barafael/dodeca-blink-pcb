@@ -258,51 +258,29 @@ STRIP6_OUT
 $Comp
 L Connector_Generic:Conn_02x01 J3
 U 1 1 60500BD4
-P 2290 2165
-F 0 "J3" V 2294 2245 50  0000 L CNN
-F 1 "Conn_02x01" V 2385 2245 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 2290 2165 50  0001 C CNN
-F 3 "~" H 2290 2165 50  0001 C CNN
-	1    2290 2165
+P 6355 1669
+F 0 "J3" V 6359 1749 50  0000 L CNN
+F 1 "Conn_02x01" V 6450 1749 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 6355 1669 50  0001 C CNN
+F 3 "~" H 6355 1669 50  0001 C CNN
+	1    6355 1669
 	0    1    1    0   
 $EndComp
-Text GLabel 2290 1965 1    50   Input ~ 0
+Text GLabel 6355 1469 1    50   Input ~ 0
 5V
 $Comp
 L power:GND #PWR0107
 U 1 1 60502E2F
-P 2290 2465
-F 0 "#PWR0107" H 2290 2215 50  0001 C CNN
-F 1 "GND" V 2295 2337 50  0000 R CNN
-F 2 "" H 2290 2465 50  0001 C CNN
-F 3 "" H 2290 2465 50  0001 C CNN
-	1    2290 2465
+P 6355 1969
+F 0 "#PWR0107" H 6355 1719 50  0001 C CNN
+F 1 "GND" V 6360 1841 50  0000 R CNN
+F 2 "" H 6355 1969 50  0001 C CNN
+F 3 "" H 6355 1969 50  0001 C CNN
+	1    6355 1969
 	1    0    0    -1  
 $EndComp
 Text GLabel 7660 2830 1    50   Input ~ 0
 5V
-$Comp
-L dodeca-blink-rescue:74HCT125-t125-dodeca-blink-rescue U1
-U 1 1 604DB4A3
-P 7660 3530
-F 0 "U1" H 7660 4501 50  0000 C CNN
-F 1 "74HCT125" H 7660 4410 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7660 3530 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hct125.pdf" H 7660 4319 50  0000 C CNN
-	1    7660 3530
-	1    0    0    -1  
-$EndComp
-$Comp
-L dodeca-blink-rescue:74HCT125-t125-dodeca-blink-rescue U2
-U 1 1 604DFC35
-P 7685 5585
-F 0 "U2" H 7685 6556 50  0000 C CNN
-F 1 "74HCT125" H 7685 6465 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7685 5585 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hct125.pdf" H 7685 6374 50  0000 C CNN
-	1    7685 5585
-	1    0    0    -1  
-$EndComp
 Text GLabel 7185 5535 0    50   Input ~ 0
 STRIP_6
 $Comp
@@ -455,65 +433,27 @@ $EndComp
 NoConn ~ 8185 5435
 NoConn ~ 8160 3380
 $Comp
-L dodeca-blink-rescue:ESP32-DEVKITC-32D-esp32-devkitC-dodeca-blink-rescue U3
-U 1 1 6056A46C
-P 2495 4315
-F 0 "U3" H 2495 5482 50  0000 C CNN
-F 1 "ESP32-DEVKITC-32D" H 2495 5391 50  0000 C CNN
-F 2 "esp32-devkitC-footprint:MODULE_ESP32-DEVKITC-32D" H 2495 4315 50  0001 L BNN
-F 3 "" H 2495 4315 50  0001 L BNN
-F 4 "Espressif Systems" H 2495 4315 50  0001 L BNN "MANUFACTURER"
-F 5 "4" H 2495 4315 50  0001 L BNN "PARTREV"
-	1    2495 4315
-	1    0    0    -1  
-$EndComp
-Text GLabel 1695 4115 0    50   Input ~ 0
-STRIP_6
-Text GLabel 1695 4215 0    50   Input ~ 0
-STRIP_5
-Text GLabel 1695 4615 0    50   Input ~ 0
-STRIP_2
-Text GLabel 1695 4315 0    50   Input ~ 0
-STRIP_4
-Text GLabel 1695 4415 0    50   Input ~ 0
-STRIP_3
-Text GLabel 1695 4815 0    50   Input ~ 0
-STRIP_1
-$Comp
 L power:GND #PWR0110
 U 1 1 605858C1
-P 3295 4015
-F 0 "#PWR0110" H 3295 3765 50  0001 C CNN
-F 1 "GND" V 3300 3887 50  0000 R CNN
-F 2 "" H 3295 4015 50  0001 C CNN
-F 3 "" H 3295 4015 50  0001 C CNN
-	1    3295 4015
+P 5610 4990
+F 0 "#PWR0110" H 5610 4740 50  0001 C CNN
+F 1 "GND" V 5615 4862 50  0000 R CNN
+F 2 "" H 5610 4990 50  0001 C CNN
+F 3 "" H 5610 4990 50  0001 C CNN
+	1    5610 4990
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 60585A2B
-P 3295 3415
-F 0 "#PWR0123" H 3295 3165 50  0001 C CNN
-F 1 "GND" V 3300 3287 50  0000 R CNN
-F 2 "" H 3295 3415 50  0001 C CNN
-F 3 "" H 3295 3415 50  0001 C CNN
-	1    3295 3415
+P 5610 4390
+F 0 "#PWR0123" H 5610 4140 50  0001 C CNN
+F 1 "GND" V 5615 4262 50  0000 R CNN
+F 2 "" H 5610 4390 50  0001 C CNN
+F 3 "" H 5610 4390 50  0001 C CNN
+	1    5610 4390
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 6058B543
-P 1695 4715
-F 0 "#PWR0124" H 1695 4465 50  0001 C CNN
-F 1 "GND" V 1700 4587 50  0000 R CNN
-F 2 "" H 1695 4715 50  0001 C CNN
-F 3 "" H 1695 4715 50  0001 C CNN
-	1    1695 4715
-	0    1    1    0   
-$EndComp
-Text GLabel 1695 5215 0    50   Input ~ 0
-5V
 $Comp
 L inmp441:INMP441 U4
 U 1 1 60674799
@@ -536,8 +476,6 @@ F 3 "" H 8545 1465 50  0001 C CNN
 	1    8545 1465
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1695 3415 0    50   Input ~ 0
-3v3
 Text GLabel 8545 1590 2    50   Input ~ 0
 3v3
 Text GLabel 8545 1715 2    50   Input ~ 0
@@ -557,11 +495,7 @@ F 3 "" H 7645 1465 50  0001 C CNN
 	1    7645 1465
 	0    1    1    0   
 $EndComp
-Text GLabel 1695 4515 0    50   Input ~ 0
-MIC_SCK
-Text GLabel 1695 4015 0    50   Input ~ 0
-SD
-Text GLabel 3295 4915 2    50   Input ~ 0
+Text GLabel 5610 5890 2    50   Input ~ 0
 WS
 $Comp
 L power:GND #PWR0126
@@ -584,13 +518,13 @@ Text GLabel 9790 5065 0    50   Input ~ 0
 CS
 Text GLabel 9790 5465 0    50   Input ~ 0
 5V
-Text GLabel 3295 4115 2    50   Input ~ 0
+Text GLabel 5610 5090 2    50   Input ~ 0
 MISO
-Text GLabel 3295 4215 2    50   Input ~ 0
+Text GLabel 5610 5190 2    50   Input ~ 0
 CLK
-Text GLabel 3295 3515 2    50   Input ~ 0
+Text GLabel 5610 4490 2    50   Input ~ 0
 MOSI
-Text GLabel 3295 4315 2    50   Input ~ 0
+Text GLabel 5610 5290 2    50   Input ~ 0
 CS
 $Comp
 L kwmobile_sdcard_module:sdcard_module U5
@@ -647,12 +581,8 @@ F 3 "~" H 4900 3300 50  0001 C CNN
 	1    4900 3300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1695 3915
-NoConn ~ 1695 3815
-NoConn ~ 1695 3615
-NoConn ~ 1695 3715
-NoConn ~ 3295 4715
-NoConn ~ 3295 4815
+NoConn ~ 5610 5690
+NoConn ~ 5610 5790
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J1
 U 1 1 6073091C
@@ -703,4 +633,74 @@ Text GLabel 9700 3400 1    50   Input ~ 0
 5V
 Text GLabel 9800 3900 3    50   Input ~ 0
 5V
+$Comp
+L esp32-devkit-azdev:ESP32-DEVKITC-32D U1
+U 1 1 60C695BD
+P 4810 5290
+F 0 "U1" H 4810 6457 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 4810 6366 50  0000 C CNN
+F 2 "esp32-devkitd:MODULE_ESP32-DEVKITC-32D" H 4810 5290 50  0001 L BNN
+F 3 "" H 4810 5290 50  0001 L BNN
+F 4 "Espressif Systems" H 4810 5290 50  0001 L BNN "MANUFACTURER"
+F 5 "4" H 4810 5290 50  0001 L BNN "PARTREV"
+	1    4810 5290
+	1    0    0    -1  
+$EndComp
+Text GLabel 4010 5090 0    50   Input ~ 0
+STRIP_6
+Text GLabel 4010 5190 0    50   Input ~ 0
+STRIP_5
+Text GLabel 4010 5590 0    50   Input ~ 0
+STRIP_2
+Text GLabel 4010 5290 0    50   Input ~ 0
+STRIP_4
+Text GLabel 4010 5390 0    50   Input ~ 0
+STRIP_3
+Text GLabel 4010 5790 0    50   Input ~ 0
+STRIP_1
+$Comp
+L power:GND #PWR0124
+U 1 1 6058B543
+P 4010 5690
+F 0 "#PWR0124" H 4010 5440 50  0001 C CNN
+F 1 "GND" V 4015 5562 50  0000 R CNN
+F 2 "" H 4010 5690 50  0001 C CNN
+F 3 "" H 4010 5690 50  0001 C CNN
+	1    4010 5690
+	0    1    1    0   
+$EndComp
+Text GLabel 4010 6190 0    50   Input ~ 0
+5V
+Text GLabel 4010 4390 0    50   Input ~ 0
+3v3
+Text GLabel 4010 5490 0    50   Input ~ 0
+MIC_SCK
+Text GLabel 4010 4990 0    50   Input ~ 0
+SD
+NoConn ~ 4010 4890
+NoConn ~ 4010 4790
+NoConn ~ 4010 4590
+NoConn ~ 4010 4690
+$Comp
+L 74hct125:74HCT125 U2
+U 1 1 60CA3255
+P 7660 3530
+F 0 "U2" H 7660 4411 50  0000 C CNN
+F 1 "74HCT125" H 7660 4320 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7660 3530 50  0001 C CNN
+F 3 "" H 7660 3530 50  0000 C CNN
+	1    7660 3530
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74hct125:74HCT125 U3
+U 1 1 60CA6347
+P 7685 5585
+F 0 "U3" H 7685 6466 50  0000 C CNN
+F 1 "74HCT125" H 7685 6375 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7685 5585 50  0001 C CNN
+F 3 "" H 7685 5585 50  0000 C CNN
+	1    7685 5585
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
