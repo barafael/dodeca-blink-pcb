@@ -1,3 +1,3 @@
-# lamp-base-pcb
+# dodeca-blink-pcb
 
-![board render](https://github.com/barafael/lamp-base-pcb/blob/main/board.png?raw=true)
+![board render](https://github.com/barafael/dodeca-blink-pcb/blob/main/board.png?raw=true)
