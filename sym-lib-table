@@ -3,4 +3,5 @@
   (lib (name inmp441)(type Legacy)(uri ${KIPRJMOD}/inmp441/inmp441.lib)(options "")(descr ""))
   (lib (name kwmobile_sdcard_module)(type Legacy)(uri ${KIPRJMOD}/kwmobile_sdcard_module/kwmobile_sdcard_module.lib)(options "")(descr ""))
   (lib (name esp32-devkit-azdev)(type Legacy)(uri ${KIPRJMOD}/esp32-devkitC/ESP32-DEVKITC-32D.lib)(options "")(descr ""))
+  (lib (name dodeca-blink-rescue)(type Legacy)(uri ${KIPRJMOD}/dodeca-blink-rescue.lib)(options "")(descr ""))
 )
